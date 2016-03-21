@@ -111,6 +111,9 @@ MPlayer.prototype = _.extend({
             this.status.playing = false;
         }
     },
+    getCurrentTime: function () {
+        return this.player.currentTime;
+    },
     stop: function() {
         this.player.cmd('stop');
     },
