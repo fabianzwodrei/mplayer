@@ -155,7 +155,10 @@ MPlayer.prototype = _.extend({
     },
     adjustAudio: function(seconds) {
         this.player.cmd('audio_delay', [seconds]);
-    }
+    },
+    loop: function(times) {
+        this.player.cmd('loop', [times]);
+    },
 }, EventEmitter);
 
 module.exports = MPlayer;

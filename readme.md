@@ -82,6 +82,7 @@ player.openPlaylist('http://www.radio.com/radio-stream.pls', {
 * **slowDownSubtitles**( )
 * **adjustSubtitles**(< Number > seconds) - adjust the subtitles timing by +/- seconds
 * **adjustAudio**(< Number > seconds) - adjust the audio timing by +/- seconds
+* **loop**(< Number > of loops) - loop the file, 1 for infinite looping, 0 for no loops
 
 ## Events
 
